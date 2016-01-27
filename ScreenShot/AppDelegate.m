@@ -17,6 +17,13 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    NSSize screenSize = [[NSScreen mainScreen] frame].size;
+    NSRect windowFrame = self.window.frame;
+    windowFrame.origin = NSZeroPoint;
+    windowFrame.size = screenSize;
+    [self.window setFrame:windowFrame display:YES];
+    
+    
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

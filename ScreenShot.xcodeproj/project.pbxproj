@@ -11,6 +11,7 @@
 		305072C41C59050E00C649DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 305072C31C59050E00C649DB /* main.m */; };
 		305072C61C59050E00C649DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305072C51C59050E00C649DB /* Assets.xcassets */; };
 		305072C91C59050E00C649DB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 305072C71C59050E00C649DB /* MainMenu.xib */; };
+		305072D21C59070E00C649DB /* CustomWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 305072D11C59070E00C649DB /* CustomWindow.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		305072C51C59050E00C649DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		305072C81C59050E00C649DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		305072CA1C59050E00C649DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		305072D01C59070E00C649DB /* CustomWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomWindow.h; sourceTree = "<group>"; };
+		305072D11C59070E00C649DB /* CustomWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,8 @@
 			children = (
 				305072BF1C59050E00C649DB /* AppDelegate.h */,
 				305072C01C59050E00C649DB /* AppDelegate.m */,
+				305072D01C59070E00C649DB /* CustomWindow.h */,
+				305072D11C59070E00C649DB /* CustomWindow.m */,
 				305072C51C59050E00C649DB /* Assets.xcassets */,
 				305072C71C59050E00C649DB /* MainMenu.xib */,
 				305072CA1C59050E00C649DB /* Info.plist */,
@@ -141,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				305072C41C59050E00C649DB /* main.m in Sources */,
+				305072D21C59070E00C649DB /* CustomWindow.m in Sources */,
 				305072C11C59050E00C649DB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +287,7 @@
 				305072CF1C59050E00C649DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
